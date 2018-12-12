@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import Calendar from "./components/Calendar";
 import './App.css';
 
@@ -11,7 +10,7 @@ class App extends Component {
           <div id="logo">
             <span className="icon">date_range</span>
             <span>
-              react<b>calendar</b>
+            <b>calendar</b>
             </span>
           </div>
         </header>

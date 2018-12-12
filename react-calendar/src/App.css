@@ -26,12 +26,12 @@
 /* VARIABLES */
 
 :root {
-  --main-color: #1a8fff;
-  --text-color: #777;
-  --text-color-light: #ccc;
-  --border-color: #eee;
-  --bg-color: #f9f9f9;
-  --neutral-color: #fff;
+  --main-color: #5b5f63;
+  --text-color: rgb(146, 46, 46);
+  --text-color-light: rgb(117, 124, 51);
+  --border-color: rgb(141, 126, 38);
+  --bg-color: #8d4747;
+  --neutral-color: rgb(235, 209, 175);
 }
 
 
@@ -178,7 +178,7 @@ main {
 
 .calendar .body .selected {
   border-left: 10px solid transparent;
-  border-image: linear-gradient(45deg, #1a8fff 0%,#53cbf1 40%);
+  border-image: linear-gradient(45deg, #1c6440 0%,#8f2e4f 40%);
   border-image-slice: 1;
 }
 
@@ -231,4 +231,3 @@ main {
   flex-basis: calc(100%/7);
   width: calc(100%/7);
 }
-view rawApp.css hosted with ❤ by GitHub
