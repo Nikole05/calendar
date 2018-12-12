@@ -55,7 +55,7 @@ header {
   display: block;
   width: 100%;
   padding: 1.75em 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 3px solid var(--border-color);
   background: var(--neutral-color);
 }
 
@@ -122,7 +122,7 @@ main {
   position: relative;
   width: 100%;
   background: var(--neutral-color);
-  border: 1px solid var(--border-color);
+  border: 3px solid var(--border-color);
 }
 
 .calendar .header {
@@ -130,7 +130,7 @@ main {
   font-weight: 700;
   font-size: 115%;
   padding: 1.5em 0;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 3px solid var(--border-color);
 }
 
 .calendar .header .icon {
@@ -154,7 +154,7 @@ main {
 
 .calendar .days {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--text-color-light);
   font-size: 70%;
   padding: .75em 0;
@@ -178,7 +178,7 @@ main {
 
 .calendar .body .selected {
   border-left: 10px solid transparent;
-  border-image: linear-gradient(45deg, #1c6440 0%,#8f2e4f 40%);
+  border-image: linear-gradient(45deg, #105c37 0%,#8f2e4f 40%);
   border-image-slice: 1;
 }
 
